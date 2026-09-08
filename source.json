@@ -1,0 +1,34 @@
+{
+  "name": "Monocle",
+  "identifier": "com.farchan.monocle.source",
+  "sourceURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/source.json",
+  "apps": [
+    {
+      "name": "monocle",
+      "bundleIdentifier": "com.farchan.monocle",
+      "developerName": "farchanrifai",
+      "subtitle": "Fast, local-first expense tracking.",
+      "localizedDescription": "A private-by-design personal expense tracker for iPhone.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/icon.png",
+      "tintColor": "#FF3B30",
+      "versions": [
+        {
+          "version": "0.1.3",
+          "buildVersion": "12",
+          "date": "2026-09-08",
+          "localizedDescription": "Standard JSON backup and restore picker compatibility.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.1.3-build.12/monocle-0.1.3-build-12-unsigned-20260908-230856.ipa",
+          "size": 771980,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "permissions": [
+        {
+          "type": "faceid",
+          "usageDescription": "Optionally locks Monocle using device authentication."
+        }
+      ]
+    }
+  ],
+  "news": []
+}
