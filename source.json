@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.1.7",
+          "buildVersion": "23",
+          "date": "2026-09-10",
+          "localizedDescription": "Add choreographed stack switching card animation sequence",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.1.7-build.23/monocle-0.1.7-build-23-unsigned.ipa",
+          "size": 1389616,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.6",
           "buildVersion": "22",
           "date": "2026-09-10",
