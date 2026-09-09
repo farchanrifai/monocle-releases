@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.1.4",
+          "buildVersion": "19",
+          "date": "2026-09-10",
+          "localizedDescription": "Monocle 0.1.4 (19)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.1.4-build.19/monocle-0.1.4-build-19-unsigned.ipa",
+          "size": 1380897,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.3",
           "buildVersion": "13",
           "date": "2026-09-08",
