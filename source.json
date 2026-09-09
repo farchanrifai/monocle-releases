@@ -14,6 +14,15 @@
       "versions": [
         {
           "version": "0.1.4",
+          "buildVersion": "20",
+          "date": "2026-09-10",
+          "localizedDescription": "Card Stacks, multi-stack card membership, and always-hidden card archival",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.1.4-build.20/monocle-0.1.4-build-20-unsigned.ipa",
+          "size": 1492282,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.1.4",
           "buildVersion": "19",
           "date": "2026-09-10",
           "localizedDescription": "Monocle 0.1.4 (19)",
