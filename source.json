@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.4.0",
+          "buildVersion": "34",
+          "date": "2026-09-11",
+          "localizedDescription": "### Added\n- **RFC 4180 CSV Export & Import Engine**: Robust RFC 4180-compliant CSV engine supporting quoted fields, escaped quotes, multiline notes, and CRLF line endings without proprietary dependencies.\n- **Smart Delimiter Sniffing**: Automatic detection of comma (`,`), semicolon (`;`), and tab (`\\t`) separators across varied spreadsheet exports and bank statements.\n- **Flexible Multi-Format Parsing**: Intelligent date parsing (ISO8601, YYYY-MM-DD, DD/MM/YYYY, DD-MM-YYYY) and localized currency parsing (`Rp`, `IDR`, `k` thousands multipliers, negative debit parenthesis, and European/US decimal conventions).\n- **Intelligent Column Mapping**: Automatic column header recognition for Date, Amount, Note/Description, and Category with customizable fallback pickers.\n- **Duplicate Detection & Interactive Review**: Real-time matching against existing book expenses, duplicate badges, automatic skip toggles, and individual row inclusion checkmarks.\n- **Granular Export Filters**: Export current book or consolidated all-books data across date ranges (All Time, This Month, Last Month, Custom) with spreadsheet-ready whole IDR amounts and native FileExporter / ShareLink sharing.\n- **Zero-Overwrite Safety**: Guaranteed additive batch import preserving all preexisting user data.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.4.0-build.34/monocle-0.4.0-build-34-unsigned.ipa",
+          "size": 1722099,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.3.1",
           "buildVersion": "33",
           "date": "2026-09-11",
