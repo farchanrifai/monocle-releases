@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.2.3",
+          "buildVersion": "29",
+          "date": "2026-09-10",
+          "localizedDescription": "Eliminate front card blink with silky peak-compression morph and add in-stack card reordering inside Deck customization (v0.2.3 build 29)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.2.3-build.29/monocle-0.2.3-build-29-unsigned.ipa",
+          "size": 1407758,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.2.2",
           "buildVersion": "28",
           "date": "2026-09-10",
