@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "33",
+          "date": "2026-09-11",
+          "localizedDescription": "### Added\n- **Kinetic Spring Card Stack Transitions**: Unified single continuous spring shuffle when switching card stacks (swift 100ms kinetic gather into immediate spring fan-down), completely eliminating middle pauses or frozen stutter.\n- **Vertical Activity Synchronization**: Dynamically synchronized vertical position of Recent Activities across stack size changes using spring-interpolated card metrics, preventing abrupt layout jumps.\n- **Bring to Front Context Menu**: Added quick card promotion from the main home card deck via long-press \"Bring to Front\" context menu action with tactile haptic feedback.\n- **Stack Customizer Quick Promotion**: Added dedicated \"Move to Top\" button (`arrow.up.to.line`) and context menu actions in the Stack Customizer for instant card reordering.\n- **Automated SideStore Release Notes**: Automatic version-specific changelog extraction from `CHANGELOG.md` for SideStore release descriptions and repository manifests.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.3.1-build.33/monocle-0.3.1-build-33-unsigned.ipa",
+          "size": 1582462,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "32",
           "date": "2026-09-10",
