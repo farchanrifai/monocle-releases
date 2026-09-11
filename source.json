@@ -301,6 +301,15 @@
       "versions": [
         {
           "version": "1.0",
+          "buildVersion": "3",
+          "date": "2026-09-11",
+          "localizedDescription": "Card stack fanning: whole deck reacts smoothly to swipe up/down and pull down overscroll",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0-build.3/wallet-1.0-build-3-unsigned.ipa",
+          "size": 1173368,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.0",
           "buildVersion": "2",
           "date": "2026-09-11",
           "localizedDescription": "Refined Apple Wallet card nesting: cards above the opened hero card nest naturally behind/under it rather than sliding off-screen, with smooth fanning during drag-to-dismiss.",
