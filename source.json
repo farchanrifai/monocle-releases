@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.10",
+          "buildVersion": "46",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Perfected\n- **Critically Damped Deck Shuffling (Zero Overshoot)**: Retuned lower cards' return spring behind the hero card to a critically damped curve (`dampingFraction: 0.98`), mathematically preventing any overshoot past the active card. Lower cards are recessed by 3.0pt below the hero card's top edge, guaranteeing they never peek above the active card during transitions.\n- **Natural Symmetrical Hero Card Pop**: Selected card pop now scales organically from `.center` (`scale = 1.035`) with authentic elevation depth and soft lighting shadow, while keeping its top edge strictly top-aligned with the resting deck.\n- **Zero List Jumping & Instant Clean Transition**: Removed implicit animation on the activity section so home transactions disappear instantly (0ms) upon card tap rather than lingering or bouncing with container frame oscillations. The transaction list smoothly fades and glides in only once all cards have settled.\n- **Transition View Hierarchy Isolation**: Attached `.id(selectedID)` to the activity container to ensure clean, instant view replacement without ghost text cross-fading.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.10-build.46/monocle-0.6.10-build-46-unsigned.ipa",
+          "size": 1989070,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.9",
           "buildVersion": "45",
           "date": "2026-09-11",
