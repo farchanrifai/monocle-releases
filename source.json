@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.0",
+          "buildVersion": "36",
+          "date": "2026-09-11",
+          "localizedDescription": "### Added\n- **Interactive 3D Card Flip**: Realistic 3D card rotation revealing a technical telemetry back-face with a single tap on the card's flip button or background tap-to-flip.\n- **Teenage Engineering Telemetry Back-Face**: Industrial monospace card reverse view featuring technical serial stamp (`MONO-01 // #...`), real-time budget cycle & pace status indicator, daily burn average vs daily budget target, remaining cycle allowance, and next commitment banner for upcoming bills.\n- **Back-Face Quick Actions**: Direct shortcuts to \"Trends & Analytics\" and \"Artwork\" card customization straight from the back of any focused card.\n- **Specular Sheen & Perspective Drag Tilt**: Dynamic 3D tilt response ($\\pm 12^\\circ$) tracking continuous drag gestures with a moving white specular reflection sheen that shifts across the card surface during touch manipulation and scroll pull.\n- **Swipe-to-Shuffle Card Promotion**: Horizontal drag-to-promote gesture on background cards in the deck, allowing quick slide-out and promotion of stacked cards to the front with tactile haptics.\n- **Accessible Card Deck Controls**: Full accessibility support with custom \"Flip card\" accessibility actions, dedicated front and back buttons, and context menu shortcuts.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.0-build.36/monocle-0.6.0-build-36-unsigned.ipa",
+          "size": 1987910,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.5.0",
           "buildVersion": "35",
           "date": "2026-09-11",
