@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.17",
+          "buildVersion": "53",
+          "date": "2026-09-12",
+          "localizedDescription": "### Refined & Perfected\n- **Persistent Monocle Brand Logo Across All Views**: Unlocked complete top toolbar consistency between the resting home deck and the card transaction page. The `monocle.` brand logo remains permanently anchored on the left across both views, eliminating unnecessary view switches and title transitions.\n- **Pure Gesture-Driven Card Dismissal**: Completely removed the `✕` close button from the card transaction header, fully leveraging Apple Wallet's 1:1 physical interactive pull-to-dismiss gesture and spring momentum release. Tapping the brand logo also serves as an intuitive alternate dismiss trigger.\n- **Uncluttered Identity Hierarchy**: Removed redundant stack title text from the navigation bar, allowing the hero card's native artwork to serve as the singular, clear identity focal point.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.17-build.53/monocle-0.6.17-build-53-unsigned.ipa",
+          "size": 1986250,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.16",
           "buildVersion": "52",
           "date": "2026-09-12",
