@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.7",
+          "buildVersion": "43",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Perfected\n- **In-Place Deck Shuffle & Hero Zoom**: Replaced offscreen card ejection with an authentic in-place deck cut & shuffle. When opened, the selected card glides to the top-most position (`targetY = 10`) and zooms in (`scale = 1.04`), matching Apple Wallet's larger hero card layout in the transaction view.\n- **Two-Phase Lower Card Cut & Gather**: Cards below the selected card dip down momentarily (`+45pt`) to open the deck, then smoothly slide back up into the stack directly behind the enlarged hero card.\n- **Zero-Peek Hero Coverage**: Because the active card is larger (`scale = 1.04`) and elevated at `zIndex = 100`, it naturally covers the squared cards behind it with zero visible edge peek.\n- **Fluid Reassembly**: Dismissing the card view smoothly un-squares the deck, zooms the active card back to standard size (`scale = 1.0`), and restores all cards into their resting fanned slots.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.7-build.43/monocle-0.6.7-build-43-unsigned.ipa",
+          "size": 1972849,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.6",
           "buildVersion": "42",
           "date": "2026-09-11",
