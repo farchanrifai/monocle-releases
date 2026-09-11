@@ -301,6 +301,15 @@
       "versions": [
         {
           "version": "1.0",
+          "buildVersion": "4",
+          "date": "2026-09-11",
+          "localizedDescription": "Keep nested cards tucked behind active card when scrolling transaction list",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0-build.4/wallet-1.0-build-4-unsigned.ipa",
+          "size": 1173536,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.0",
           "buildVersion": "3",
           "date": "2026-09-11",
           "localizedDescription": "Card stack fanning: whole deck reacts smoothly to swipe up/down and pull down overscroll",
