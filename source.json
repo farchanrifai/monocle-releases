@@ -301,6 +301,15 @@
       "versions": [
         {
           "version": "1.0",
+          "buildVersion": "5",
+          "date": "2026-09-11",
+          "localizedDescription": "Refined card open and swipe-down close animations matching 1:1 Apple Wallet video reference",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0-build.5/wallet-1.0-build-5-unsigned.ipa",
+          "size": 1179692,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.0",
           "buildVersion": "4",
           "date": "2026-09-11",
           "localizedDescription": "Keep nested cards tucked behind active card when scrolling transaction list",
