@@ -300,6 +300,15 @@
       "tintColor": "#000000",
       "versions": [
         {
+          "version": "1.0.1",
+          "buildVersion": "6",
+          "date": "2026-09-11",
+          "localizedDescription": "Refined card opening and closing with separately measured springs, continuous card movement, velocity-aware swipe-down dismissal, progressive transaction blur, and accurate return to the original stack position. Search remains available on both screens. Build and four simulator interaction tests passed; physical-device feel remains to be validated.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0.1-build.6/wallet-1.0.1-build-6-unsigned.ipa",
+          "size": 1145024,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.0",
           "buildVersion": "5",
           "date": "2026-09-11",
