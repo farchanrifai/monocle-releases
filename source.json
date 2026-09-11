@@ -301,6 +301,15 @@
       "versions": [
         {
           "version": "1.0",
+          "buildVersion": "2",
+          "date": "2026-09-11",
+          "localizedDescription": "Refined Apple Wallet card nesting: cards above the opened hero card nest naturally behind/under it rather than sliding off-screen, with smooth fanning during drag-to-dismiss.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0-build.2/wallet-1.0-build-2-unsigned.ipa",
+          "size": 1166311,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.0",
           "buildVersion": "1",
           "date": "2026-09-11",
           "localizedDescription": "Initial release with 1:1 Apple Wallet card parting animations, interactive drag-to-dismiss, tuned spring dynamics, and card-specific action banners (Munify, Apple Cash, Sunrate, Payy).",
