@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.13",
+          "buildVersion": "49",
+          "date": "2026-09-12",
+          "localizedDescription": "### Refined & Perfected\n- **Native Apple Wallet Inset Transaction Platter**: Rendered transaction activity in an authentic inset continuous rounded platter (`RoundedRectangle(cornerRadius: 24, style: .continuous)`) filled with `MC.surface`, completely eliminating row divider lines for a clean, distraction-free Apple Wallet aesthetic.\n- **Clean Transaction Detail Header**: Removed the redundant inline `+` add button and paintbrush customizer button adjacent to \"Latest Transactions\", and cleanly hid the home filter menu button while viewing card transaction details.\n- **Fluid Liquid Glass Centered Add Button Morph**: Re-architected the bottom navigation bar so the floating red add button dynamically animates and morphs between a bottom-right circular action button (`56x56`) on the home screen and a centered, expanded pill button (`+ Add Expense`) at the bottom of the card transaction page using `.glassEffect(.regular.tint(MC.red.opacity(0.85)).interactive(), in: .capsule)`. Tapping pre-populates the currently opened book, and dismissing the card reverses the morph seamlessly.\n- **Automated UI Testing Suite**: Added `testTransactionPageLiquidGlassAddButtonAndPlatter` verifying button positions, morphing geometry, header cleanliness, modal presentation, and reverse transitions.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.13-build.49/monocle-0.6.13-build-49-unsigned.ipa",
+          "size": 1996586,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.12",
           "buildVersion": "48",
           "date": "2026-09-11",
