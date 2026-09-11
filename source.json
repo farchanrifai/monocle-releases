@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.5.0",
+          "buildVersion": "35",
+          "date": "2026-09-11",
+          "localizedDescription": "### Added\n- **Visual Analytics & Spending Trends**: Pure native SwiftUI + Swift Charts spending analytics suite accessible from the Book Home options menu and Budgets screen.\n- **Cumulative Trajectory Curve**: Burn-up cumulative area and line chart tracking daily spend progression against linear monthly budget pacing, complete with interactive `.chartXSelection` date scrubbing and precise point callouts.\n- **Daily Spending Rhythm**: High-density daily expense bar chart highlighting peak spending days alongside period average reference rule lines.\n- **Month-over-Month Velocity Comparison**: Day-by-day velocity curves comparing current month spending velocity against the prior month's trajectory on an aligned calendar timeline.\n- **Category Donut Breakdown**: Interactive SectorMark donut chart with center totals, dynamic slice expansion, category proportion percentages, and ranked expenditure cards with progress indicators.\n- **Cross-Book Distribution**: Consolidated portfolio breakdown utilizing book card palette color coding when analyzing \"All books\" scope.\n- **Flexible Time Horizons & Multi-Book Scoping**: Seamless horizon toggling across This Cycle, This Month, Last Month, Last 30 Days, Last 90 Days, and Year-to-Date, with instant switching between Current Book and All Books.\n- **Spending Pace KPIs**: Real-time spending pace status (Under Budget, On Pace, Ahead of Pace, Over Budget) with daily average metrics and projected period end calculations.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.5.0-build.35/monocle-0.5.0-build-35-unsigned.ipa",
+          "size": 1899168,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "34",
           "date": "2026-09-11",
