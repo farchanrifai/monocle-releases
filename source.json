@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.1",
+          "buildVersion": "37",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Fixed\n- **Direct In-Card Analytics & Artwork Presentation**: Tapping \"Trends & Analytics\" or \"Artwork\" on the flipped card now presents sheets directly on top of the active card without closing the card or kicking the user back to the home page. Dismissing either sheet returns directly to the flipped card.\n- **Isolated Card Flip (Hidden Background Cards)**: All background stacked cards now smoothly cross-fade to 0 opacity when any card is opened, completely preventing background cards from showing or peeking through during 3D card flips.\n- **Fluid 120 FPS Card Transitions**: Eliminated frame-querying layout feedback loops and offscreen compositing bottlenecks, replacing dynamic frame queries with deterministic stack slot math for buttery smooth opening and closing animations.\n- **Header Bar Breathing Room**: Added `.scrollClipDisabled()` and increased resting top margin to 14pt, ensuring the card never collides with or tucks behind the header bar or `xmark` button during perspective tilt.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.1-build.37/monocle-0.6.1-build-37-unsigned.ipa",
+          "size": 1984509,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.0",
           "buildVersion": "36",
           "date": "2026-09-11",
