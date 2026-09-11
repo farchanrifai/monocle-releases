@@ -289,6 +289,26 @@
           "usageDescription": "Optionally locks Monocle using device authentication."
         }
       ]
+    },
+    {
+      "name": "Wallet",
+      "bundleIdentifier": "com.farchan.walletprototype",
+      "developerName": "farchanrifai",
+      "subtitle": "Interactive Apple Wallet Prototype.",
+      "localizedDescription": "Native Apple Wallet prototype with authentic spring physics, physical card parting, interactive drag dismissal, and card-specific action banners.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/wallet-icon.png",
+      "tintColor": "#000000",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-09-11",
+          "localizedDescription": "Initial release with 1:1 Apple Wallet card parting animations, interactive drag-to-dismiss, tuned spring dynamics, and card-specific action banners (Munify, Apple Cash, Sunrate, Payy).",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0-build.1/wallet-1.0-build-1-unsigned.ipa",
+          "size": 1165164,
+          "minOSVersion": "26.0"
+        }
+      ]
     }
   ],
   "news": []
