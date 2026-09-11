@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.16",
+          "buildVersion": "52",
+          "date": "2026-09-12",
+          "localizedDescription": "### Refined & Perfected\n- **Streamlined Minimal Top Toolbar**: Removed the dedicated Settings button from the top navigation bar, leaving an uncluttered, distraction-free header featuring only the brand logo / card close button and the `⋯` options menu (Settings is directly accessible as an action inside the options menu).\n- **True Full-Coverage Progressive Material Blur**: Pinned the progressive blur container to `y = 0` (`ignoresSafeArea(edges: .top)`), guaranteeing complete 100% solid `.ultraThinMaterial` and theme tint coverage across the entire status bar, dynamic island, and toolbar icons, with a progressive feathering transition smoothly softening over 28pt below the header.\n- **Right-Aligned & Vertically Centered Stacks Indicator**: Repositioned the stacks filter badge (`activityScopeBadge`) to the far right of the activity section, aligned with perfect vertical centering against the section title (\"All Transactions\" / \"Recent Activities\"), eliminating baseline offset and visual clutter.\n- **Robust UI Test Coverage**: Updated test automation suite to verify the minimal toolbar layout, right-aligned stacks indicator, and seamless options-menu navigation to Settings.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.16-build.52/monocle-0.6.16-build-52-unsigned.ipa",
+          "size": 1989518,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.15",
           "buildVersion": "51",
           "date": "2026-09-12",
