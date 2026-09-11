@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.3",
+          "buildVersion": "39",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Redesigned\n- **In-Line Scrollable Transaction List**: Replaced the detached modal sheet with an in-line scrollable transaction section styled identically to the home screen directly inside the main scroll view. Begins precisely 16pt beneath the active card with zero dead space or sheet disconnect.\n- **Tactile Wallet Pocket Fanning & Stacking**: Upper cards above the selected card compress into a true physical wallet-pocket fan at `CGFloat(index) * 12pt` with depth perspective scaling (`0.98`, `0.96`...). Headers peek out neatly and remain fully interactive to switch active cards.\n- **Offscreen Push with Smooth Fade**: Cards below the selected card glide smoothly offscreen past the viewport with a soft fade-out.\n- **Zero Tap Flash**: Introduced `CardDeckButtonStyle` to eliminate the iOS touch-down white highlight overlay when tapping cards.\n- **Unified Clean Modal Architecture**: Opening Trends & Analytics or the Artwork Customizer from the card's telemetry back face now presents cleanly as top-level sheets without competing modal presentations.\n- **Seamless Dismiss Motion**: Tapping the top navigation bar `xmark` button smoothly collapses the entire deck back to its resting stacked slots.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.3-build.39/monocle-0.6.3-build-39-unsigned.ipa",
+          "size": 1963452,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.2",
           "buildVersion": "38",
           "date": "2026-09-11",
