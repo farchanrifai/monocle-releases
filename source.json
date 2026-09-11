@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.12",
+          "buildVersion": "48",
+          "date": "2026-09-11",
+          "localizedDescription": "### Fixed & Refined\n- **Discrete Card Context Menu Targeting**: Repositioned `CardGesturesModifier` (and `.contextMenu`) and `CardAccessibilityModifier` directly onto the discrete card artwork (`width` x `height` with continuous 16pt rounded rectangle) *prior* to parent `.position(x:y:)`. This prevents `UIContextMenuInteraction` from targeting the full-screen container, eliminating the semi-transparent box artifact and anchoring context menus directly adjacent to the touched card.\n- **Home Header State Guard**: Updated home header logic to explicitly check `if expanded, let current` rather than `if let current`. When resting in the home card stack (`expanded == false`), the header is guaranteed to always display the brand logo (`monocle.`) rather than prematurely showing the detail view header (`✕ Book Name`).\n- **Deck Rest Card Face Cleanliness**: Restricted the card front flip action button (`⟳`) to expanded detail cards (`if isCurrent && expanded`), keeping resting stack cards perfectly clean.\n- **Single Active Card Back Instance**: Restricted `CardBackTelemetryView` rendering strictly to the active selected card (`if isCurrent`), eliminating background duplicate accessibility tree elements and optimizing memory.\n- **Robust Collapse State Cleanup**: Removed the restrictive `completionCriteria: .removed` from `closeCard()` so that state variables (`selectedID`, `model.selectedBookID`, dismiss offsets) reliably reset upon collapse completion across all spring animations.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.12-build.48/monocle-0.6.12-build-48-unsigned.ipa",
+          "size": 1991129,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.11",
           "buildVersion": "47",
           "date": "2026-09-11",
