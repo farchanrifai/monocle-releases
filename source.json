@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.15",
+          "buildVersion": "51",
+          "date": "2026-09-12",
+          "localizedDescription": "### Refined & Perfected\n- **Collapsible Hierarchical Options Submenus**: Reorganized the top-right options menu into clean, logically grouped collapsible submenus: `Cards & Stacks` (`Create New Book`, `Customize Card`, `Stacks & Card Visibility`), `Tools & Insights` (`Budgets`, `Analytics & Trends`, `Recurring Bills`), and `Data & Backup` (`Export CSV`, `Import CSV`), plus a direct `Settings` item. Eliminated redundant visual direction controls, duplicate stack manager entry points, return-to-stack actions, and raw cards dumps for a fast, uncluttered menu interaction.\n- **Distinct Top Toolbar & Progressive Material Blur**: Replaced the hard-stop full-opacity navigation header with an authentic progressive variable material blur (`.ultraThinMaterial` and tint gradient smoothly feathered with a 5-stop linear gradient across 72pt depth). Separated navigation into a distinct Settings button (`gearshape`) and Options menu button (`ellipsis.circle`).\n- **Native Inset Platter for Home Screen Transactions**: Brought the exact native Apple Wallet continuous rounded inset platter container (`24pt` corner radius, `MC.surface`, zero row divider lines) to the main home screen activity section, creating seamless aesthetic parity between resting stack browsing and opened card inspection.\n- **Physical Device Scaled-Down Typography**: Visually scaled and balanced typography across all card and transaction surfaces for iPhone 15 Pro: card amount reduced from 28pt bold to 22pt bold (`.system(size: 22, weight: .bold)`), section titles scaled to 15pt semibold, navigation bar book title to 16pt semibold, monocle brand logo to 24pt/26pt, transaction row titles to 14pt semibold, dates to 11.5pt, amounts to 13.5pt semibold, and floating add button labels to 14.5pt semibold with 17pt symbol.\n- **Automated UI Testing Suite**: Added `testOptionsCollapsibleMenuAndHomePlatter` validating home platter presence, progressive blur header rendering, hierarchical submenu navigation, Budgets screen routing, and transaction platter continuity.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.15-build.51/monocle-0.6.15-build-51-unsigned.ipa",
+          "size": 1987222,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.14",
           "buildVersion": "50",
           "date": "2026-09-12",
