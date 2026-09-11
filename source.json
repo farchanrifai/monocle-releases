@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.2",
+          "buildVersion": "38",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Rebuilt\n- **Apple Wallet Card Transition Physics**: Completely re-engineered card opening and closing animations adopting authentic Apple Wallet kinematics inspired by Kavsoft's SwiftUI 2026 reference architecture.\n- **Viewport-Aware Geometry & Offscreen Push**: Powered by `.visualEffect`, selected cards smoothly glide to the top of the viewport with comfortable top breathing clearance (`14pt`), background cards above tuck behind at `0.95` scale, and lower cards smoothly slide down off the bottom of the screen.\n- **Weighted `.interactiveSpring` Motion**: Tuned spring physics to `.interactiveSpring(response: 0.55, dampingFraction: 0.90)` for buttery smooth, natural gliding motion with zero jitter, stutter, or artificial bouncing.\n- **Interactive Below-Card Presentation**: Adjusted bottom transactions sheet detents dynamically based on card geometry, allowing full touch interaction with the card at the top (3D drag tilt, flip to telemetry, quick actions) while transactions remain visible below.\n- **One-Tap Close Transition**: Seamless dismissal via the top navigation bar `xmark` button or sheet dismiss, reversing the entire deck smoothly back into its resting stack slots.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.2-build.38/monocle-0.6.2-build-38-unsigned.ipa",
+          "size": 1989814,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.1",
           "buildVersion": "37",
           "date": "2026-09-11",
