@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.6",
+          "buildVersion": "42",
+          "date": "2026-09-11",
+          "localizedDescription": "### Fixed\n- **Stable Dual-Layer Card Transition**: The resting deck and focused transaction page now animate in independent layers, eliminating scroll-driven layout jumps and header ghosting.\n- **Position-Only Card Handoff**: The selected card moves between layers without interpolating its size or opacity, preserving a solid physical-card appearance throughout opening and closing.\n- **Viewport-Aware Ejection**: Cards below the selection travel beyond the actual screen height instead of relying on a fixed offset, while upper cards remain fully opaque behind the active card.\n- **Clean Flip & Reassembly**: Background cards hide only after the opening spring settles, then return before dismissal so the 3D flip stays isolated and the deck reassembles without a cross-fade.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.6-build.42/monocle-0.6.6-build-42-unsigned.ipa",
+          "size": 2065314,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.5",
           "buildVersion": "41",
           "date": "2026-09-11",
