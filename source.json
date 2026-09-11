@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.5",
+          "buildVersion": "41",
+          "date": "2026-09-11",
+          "localizedDescription": "### Refined & Perfected\n- **Physical Card Stacking**: Opening any card now physically stacks the opened card directly on top of the cards above it (`targetY = 10`), covering them completely with authentic mechanical motion (no fade animation).\n- **Lower Cards Ejection**: Cards below the selected card are thrown out of the screen towards the bottom (`targetY = 1200`) at full opacity (`opacity = 1.0`), and slide smoothly back up when dismissed.\n- **Isolated 3D Card Flip**: Once fully covered, upper cards are hidden behind the active card so 3D rotation reveals clean empty space without background cards peeking through.\n- **Seamless Reassembly on Dismiss**: When returning to the home page, covered cards are restored right before the closing spring begins, allowing all cards to un-stack and slide back down into their resting positions.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.5-build.41/monocle-0.6.5-build-41-unsigned.ipa",
+          "size": 1970129,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.4",
           "buildVersion": "40",
           "date": "2026-09-11",
