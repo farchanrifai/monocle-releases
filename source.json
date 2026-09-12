@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.8",
+          "buildVersion": "67",
+          "date": "2026-09-12",
+          "localizedDescription": "### Native Progressive Blur Toolbar Matching Home\n- **Eliminated UIKit NavigationBar Hard Stop**:\n  - Replaced internal `NavigationStack` in `AnalyticsView` with a native `ZStack` layout, custom topBar, and progressive blur header background identical to `BookHomeView`.\n  - Removed UIKit's `_UIBarBackground` and fixed 44pt hard-stop cutoff, allowing scrolling charts and content to feather continuously and smoothly under the title and status bar.\n  - Provided custom centered header with theme-aware `ink` typography and dismiss button when presented modally.\n- **Test Suite Consistency**:\n  - Verified 92 unit tests in `MonocleTests` and all UI tests in `MonocleUITests`.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.8-build.67/monocle-0.7.8-build-67-unsigned.ipa",
+          "size": 2396692,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.7",
           "buildVersion": "66",
           "date": "2026-09-12",
