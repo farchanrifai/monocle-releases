@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.2",
+          "buildVersion": "61",
+          "date": "2026-09-12",
+          "localizedDescription": "### Settings-Configured Expense Input & Consistent Record Button\n- **Separated Expense Input Mode**:\n  - Moved entry mode selection (Keypad vs. Natural Language Text) into Settings under a dedicated \"Expense Input\" section.\n  - Removed the segmented picker header in `EntryView` to recover vertical layout space and streamline fast logging.\n  - Preserved automatic keyboard focusing on the natural language field when Text mode is chosen.\n  - Persisted `preferredEntryMode` in `WorkspacePreferences` across app restarts and workspace backups.\n- **Unified Record Button Styling**:\n  - Aligned `RecordButton` in `EntryView` with the card transaction detail's Add Expense button.\n  - Employs a 56pt Liquid Glass Capsule (`.glassEffect(.regular.tint(MC.red.opacity(0.85)).interactive(), in: .capsule)`), centered icon and title label, and dark-mode glass styling.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.2-build.61/monocle-0.7.2-build-61-unsigned.ipa",
+          "size": 2332026,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.1",
           "buildVersion": "60",
           "date": "2026-09-12",
