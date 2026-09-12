@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.6.18",
+          "buildVersion": "54",
+          "date": "2026-09-12",
+          "localizedDescription": "Reliability and performance update. Fixes automatic bill recording, duplicate confirmations, atomic CSV imports, multi-book draft recovery, backup artwork validation, notification cancellation, and analytics date boundaries. Reduces history rendering and photo-processing work, improves CSV duplicate detection, and removes competing card gesture/animation handlers while preserving the existing UI. Verified with 83 unit tests and 37 UI scenarios across the full run and targeted reruns.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.6.18-build.54/monocle-0.6.18-build-54-unsigned-20260912-022945.ipa",
+          "size": 2000698,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.6.17",
           "buildVersion": "53",
           "date": "2026-09-12",
