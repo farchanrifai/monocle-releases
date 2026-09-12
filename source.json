@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.4",
+          "buildVersion": "63",
+          "date": "2026-09-12",
+          "localizedDescription": "### User-Facing Terminology Standardization\n- **Unified Card Experience**:\n  - Standardized user-facing copy from \"Book\" to \"Card\" across Settings (Active Card section, Card name, Start your real card), Card Customizer, and Book Home options (\"New Card\").\n  - Updated Backup & Restore (\"Replace current card\", \"Includes your cards, categories...\") and CSV Interchange (\"Destination Card\", \"Target Card & Category\") while preserving existing underlying Core Data schema.\n  - Aligned Analytics breakdown with \"Spending by Card\", \"Current card\", and \"All cards\" filters.\n- **Consistent Navigation & Eyebrows**:\n  - Standardized bottom navigation tab bar item from \"Analysis\" to \"Analytics\" to match section headers and reporting contexts.\n  - Standardized recurring bills header eyebrow from \"Recurring commitments\" to \"Recurring bills\" in `BillsView`.\n- **Test Suite Alignment**:\n  - Updated XCUI automation flows and unit tests to match standardized Card and Analytics naming.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.4-build.63/monocle-0.7.4-build-63-unsigned.ipa",
+          "size": 2341379,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.3",
           "buildVersion": "62",
           "date": "2026-09-12",
