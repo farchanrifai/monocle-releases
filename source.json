@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.6",
+          "buildVersion": "65",
+          "date": "2026-09-12",
+          "localizedDescription": "### Cumulative Trajectory Decoupling & Stacks-First Analytics Scope\n- **Cumulative Trajectory Decoupling**:\n  - Decoupled `Actual Spend` and `Budget Pace` into two strictly independent Swift Charts series with explicit series keys (`\"Actual Spend\"` vs `\"Budget Pace\"`).\n  - Eliminated the saw-tooth zigzag caused by alternating line marks, rendering a smooth monotonic burn-up curve ending at today and a clean dashed guide across the entire 30-day billing cycle.\n- **Stacks & Cards Scope Redesign**:\n  - Replaced the rigid binary `[ Current card | All cards ]` segmented control with an interactive **Scope Menu Pill** (`[ 􀏅 Everyday · Stack ▾ ]`).\n  - **Home Flow Continuity**: Automatically initializes and synchronizes scope with whichever context was active on Home (Active Stack, All Cards, or selected Card).\n  - **Categorized Drilldown**: Provides 1-tap switching between Stacks (with icons and live checkmarks), Individual Cards, and All Active Cards.\n  - **Stack-Scoped Cross-Card Breakdown**: Dynamic \"Spending by Card\" chart adapts to display spending distribution among cards in the selected stack, or across all active cards.\n- **Domain & Tests**:\n  - Added `AnalyticsFilterScope` in `AnalyticsEngine.swift` supporting stack, card, and global overview scopes.\n  - Added unit test coverage in `AnalyticsTests.swift` and updated UI test suite in `MonocleUITests.swift` (92 unit tests passing).",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.6-build.65/monocle-0.7.6-build-65-unsigned.ipa",
+          "size": 2385799,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.5",
           "buildVersion": "64",
           "date": "2026-09-12",
