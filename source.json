@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.5",
+          "buildVersion": "64",
+          "date": "2026-09-12",
+          "localizedDescription": "### Analytics Audit & Presentation Enhancements\n- **Calculation & Data Structure Reliability**:\n  - **Full Cycle Budget Pace Continuity**: Extended budget pace trajectory across the full 30 days of the billing cycle or month, displaying the linear target pace into the future while halting actual spend at the current day (`isFuture: Bool`, optional `cumulativeAmount: Int64?`).\n  - **Unallocated & Archived Category Reconciliation**: Reconciled transactions without categories into an \"Uncategorized\" bucket and deleted/archived categories into \"Other\", ensuring 100% mathematical integrity across cards and category breakdowns.\n  - **Fast Month-over-Month Comparison**: Optimized comparison algorithm with instant day-prefix matching and flatline handling for shorter prior months (e.g. February).\n  - **Pace Phrasing Clarity**: Clarified budget pacing copy to explicitly state `\"X% above budget pace\"` or `\"X% under budget pace\"`.\n- **Enhanced Charts & 120Hz Scrubbing**:\n  - **Day 1 PointMark Anchors**: Added single-point indicators to Trajectory and Month-over-Month charts ensuring immediate visual feedback on the first day of a cycle before line interpolation begins.\n  - **Interactive Daily Rhythm Scrubbing**: Added `.chartXSelection` scrubber with synchronized peak day indicators and live daily IDR spend callouts.\n  - **Donut Chart Slice Selection**: Implemented native `.chartAngleSelection` allowing direct touch selection of category slices.\n  - **Category Budget Allowance Markers**: Displayed subtle guideline indicators for categories with configured budget caps.\n  - **Card Ranking Visual Hierarchy**: Inverted cross-card breakdown Y-axis so the highest spending card appears at the top.\n  - **ProMotion 120Hz Gesture Throttle**: Throttled scrub state emissions with microsecond timestamp checks for 120 FPS fluidity.\n- **Harness & Widget Store Resilience**:\n  - Added cache directory fallback to `WidgetSnapshotStore` when App Group container permissions are unavailable in simulator test harnesses.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.5-build.64/monocle-0.7.5-build-64-unsigned.ipa",
+          "size": 2358671,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.4",
           "buildVersion": "63",
           "date": "2026-09-12",
