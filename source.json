@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.7",
+          "buildVersion": "66",
+          "date": "2026-09-12",
+          "localizedDescription": "### Progressive Blur Toolbar & Bottom Navigation Clearance\n- **Progressive Blur Toolbar Background**:\n  - Implemented the same smoothstep progressive blur overlay (`.ultraThinMaterial` + theme-aware paper tint) on the Analytics navigation bar.\n  - Hidden native toolbar background so the \"Analytics & Trends\" title and actions float over the progressive blur, allowing scrolling charts to smoothly glide and feather out under the status bar.\n- **Bottom Navigation Clearance**:\n  - Added 96pt bottom padding to the Analytics scroll view so the lowest card is never obscured by the floating bottom navigation bar.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.7-build.66/monocle-0.7.7-build-66-unsigned.ipa",
+          "size": 2402596,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.6",
           "buildVersion": "65",
           "date": "2026-09-12",
