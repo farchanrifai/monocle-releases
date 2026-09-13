@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.11",
+          "buildVersion": "74",
+          "date": "2026-09-14",
+          "localizedDescription": "### Direct Filter Menu on Tap (Unified Instant Menu Presentation)\n- **Direct Filter Menu Presentation**:\n  - Refactored the filter button bubble in `BottomNavigation.swift` so that a single tap directly presents the filter menu containing all Stacks, \"All Active Cards\", \"New Stack…\", and \"Manage Stacks & Cards…\".\n  - Removed the `primaryAction` quick-switch toggle, completely unifying the interaction model with zero delay or separation between tap and long-press.\n  - Added `.contentShape(Circle())` for precise circular touch targeting on the 60×60 floating bubble.\n- **Test Suite Updates**:\n  - Updated `MonocleUITests.swift` (`testStacksFilterBubbleAndCustomizer`, `testStackSwitchAnimationSequence`, `testTransactionPageLiquidGlassAddButtonAndPlatter`) to reflect immediate menu presentation and direct stack selection.\n  - Verified all 97 unit tests in `MonocleTests` pass with 0 failures.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.11-build.74/monocle-0.7.11-build-74-unsigned.ipa",
+          "size": 2533172,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.10",
           "buildVersion": "73",
           "date": "2026-09-13",
