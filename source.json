@@ -14,6 +14,15 @@
       "versions": [
         {
           "version": "0.7.9",
+          "buildVersion": "72",
+          "date": "2026-09-13",
+          "localizedDescription": "### True Native iOS Search Bar (.searchable) & Fluid Navigation Overlay\n- **True Native iOS System Search Architecture**:\n  - Migrated the Spotlight Search overlay from a custom SwiftUI textfield container to Apple's first-party `NavigationStack` with the native `.searchable` modifier (`placement: .navigationBarDrawer(displayMode: .always)`).\n  - Eliminates all custom shapes, fake borders, and squared corner approximations in favor of Apple's exact system search bar, authentic system squircle corner radius, native clear button, and native dismiss mechanics.\n  - Automatically suppresses the floating bottom navigation bar (`BottomNavigation`) when search is active, providing full keyboard and scroll clearance for matching results.\n  - Retained native liquid glass bubbles for the navigation bar search trigger (`homeSearchButton`) and options menu (`bookOptionsMenu`).\n- **Test Suite & Verification**:\n  - All 97 unit tests in `MonocleTests` passed cleanly.\n  - UI test suite in `MonocleUITests` (`testSpotlightSearchAndFilter`) verified native `.searchable` activation, typing, clear button, date filtering, and native close button dismissal with 0 failures.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.9-build.72/monocle-0.7.9-build-72-unsigned.ipa",
+          "size": 2533951,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.7.9",
           "buildVersion": "71",
           "date": "2026-09-13",
           "localizedDescription": "### Spotlight Fullscreen Search & Filter Overlay with iOS Default Capsule & Native Liquid Glass Bubbles",
