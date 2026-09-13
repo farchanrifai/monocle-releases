@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.12",
+          "buildVersion": "75",
+          "date": "2026-09-14",
+          "localizedDescription": "### Revert Spotlight Search Feature\n- **Full Search Feature Removal**:\n  - Removed Spotlight Search overlay (`SpotlightSearchView.swift`) and toolbar search button (`homeSearchButton`), restoring the clean home navigation header.\n  - Removed `showSearch` state tracking in `AppModel` and removed bottom navigation suppression in `MonocleApp`.\n  - Removed search-specific helper extensions in `Expense.swift` and styling modifiers in `MonocleStyle.swift`.\n  - Removed `SearchTests.swift` and UI test `testSpotlightSearchAndFilter`.\n- **Preserved Core Features**:\n  - Maintained direct-menu filter button presentation on tap in `BottomNavigation.swift`.\n  - All 92 unit tests in `MonocleTests` passed cleanly with 0 failures.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.12-build.75/monocle-0.7.12-build-75-unsigned.ipa",
+          "size": 2399837,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.11",
           "buildVersion": "74",
           "date": "2026-09-14",
