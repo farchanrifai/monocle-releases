@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.13",
+          "buildVersion": "76",
+          "date": "2026-09-14",
+          "localizedDescription": "### Dedicated Transaction Detail Page, Row Swipe Actions & Exact Discard Tracking\n- **Smart Discard Prompt Tracking (No False Discard Dialogs)**:\n  - Added `originalDraft` snapshot capture to `AppModel`.\n  - When opening any expense (latest or historical, same-card or cross-card), closing the sheet without making any changes now dismisses cleanly without prompting to Discard or Keep Editing.\n  - Making any modifications (amount, category, note, split, or date) activates confirmation safeguards to prevent accidental data loss.\n- **Fluid Row Swipe Actions**:\n  - Implemented `SwipeActionModifier` on transaction rows within the custom platter `LazyVStack`.\n  - **Swipe Right (Leading)**: Reveals a blue rounded Edit action; swiping past threshold or tapping immediately opens the Edit Expense sheet.\n  - **Swipe Left (Trailing)**: Reveals a red rounded Delete action; swiping past threshold or tapping deletes the expense with haptic feedback and displays the undo toast.\n- **Dedicated Transaction Detail Page (`TransactionDetailView`)**:\n  - Tapping any expense row now opens a dedicated Apple Wallet–inspired receipt and metadata page (`TransactionDetailView`).\n  - Hero header with category icon platter, prominent title, large formatted amount, and relative timestamp.\n  - Itemized details platter showing category, card/account badge with authentic color pill, date, entry source, notes, and split category allocations.\n  - Primary navigation with Back button, top & bottom Edit buttons, and Delete button with confirmation dialog.\n- **Verification & Test Suite**:\n  - All 94 unit tests in `MonocleTests` passed with 0 failures.\n  - UI test suite in `MonocleUITests` (`testTransactionDetailPageAndBackNavigation`, `testSwipeActionsOnExpenseRow`, `testCloseConfirmsDiscardAndDoesNotBlockEditing`, `testStacksFilterBubbleAndCustomizer`, `testTransactionPageLiquidGlassAddButtonAndPlatter`) passed cleanly.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.13-build.76/monocle-0.7.13-build-76-unsigned.ipa",
+          "size": 2484353,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.12",
           "buildVersion": "75",
           "date": "2026-09-14",
