@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.14",
+          "buildVersion": "77",
+          "date": "2026-09-14",
+          "localizedDescription": "### Native List Style without Dividers & Authentic iOS Swipe Actions\n- **Native SwiftUI `List` Implementation**:\n  - Replaced custom `LazyVStack` platter and custom drag modifier with Apple's first-party SwiftUI `List`.\n  - Configured `.listStyle(.plain)` with `.scrollContentBackground(.hidden)` to seamlessly render over Monocle's liquid glass platter.\n  - Removed dividers completely via `.listRowSeparator(.hidden)` as requested, maintaining a clean, uninterrupted visual flow.\n- **Authentic iOS Native `.swipeActions`**:\n  - Attached first-party `.swipeActions(edge: .leading)` with `.tint(.blue)` for Edit and `.swipeActions(edge: .trailing)` with `.destructive` for Delete.\n  - Restores 100% natural Apple velocity curves, rubber-banding spring physics, threshold expansion, and system audio/haptic responses.\n  - Allows simultaneous smooth vertical list scrolling without gesture intercept or touch cancellation conflicts.\n- **Verification & Test Suite**:\n  - All 94 unit tests in `MonocleTests` passed with 0 failures.\n  - Full targeted UI test suite in `MonocleUITests` (`testSwipeActionsOnExpenseRow`, `testTransactionDetailPageAndBackNavigation`, `testCloseConfirmsDiscardAndDoesNotBlockEditing`, `testStacksFilterBubbleAndCustomizer`, `testTransactionPageLiquidGlassAddButtonAndPlatter`) passed cleanly.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.14-build.77/monocle-0.7.14-build-77-unsigned.ipa",
+          "size": 2486334,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.13",
           "buildVersion": "76",
           "date": "2026-09-14",
