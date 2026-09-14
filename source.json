@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.17",
+          "buildVersion": "80",
+          "date": "2026-09-14",
+          "localizedDescription": "### Pixel-Perfect Transaction Platter Geometry & Blank Row Elimination\n- **Eliminated Trailing Gap / Blank Row in Recent Activities**:\n  - Diagnosed and resolved the root cause of the empty gap at the bottom of the home page and card transaction feed platter.\n  - Aligned native `List` container frame calculation with exact row metrics (`activityRowHeight = 56pt`) instead of an oversized 60pt estimate that previously accumulated 54pt of dead space (the exact height of an extra row) across 9 items.\n  - Fixed row content height to `56pt` with centered vertical layout and `.environment(\\.defaultMinListRowHeight, 56)`, `.environment(\\.defaultMinListHeaderHeight, 0)`, and `.listSectionSpacing(.custom(0))`.\n  - Achieved perfect top-and-bottom vertical symmetry (~10pt inset) within the rounded card platter (`MC.surface`, corner radius 24) without clipping curved corners or disrupting first-party swipe actions.\n- **Verification & Test Suite**:\n  - All 98 unit tests in `MonocleTests` passed cleanly.\n  - Targeted UI test suite in `MonocleUITests` (`testSwipeActionsOnExpenseRow`, `testTransactionDetailPageAndBackNavigation`, `testTransactionPageLiquidGlassAddButtonAndPlatter`, `testStacksFilterBubbleAndCustomizer`) passed with 0 failures on iPhone 17 Pro simulator.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.17-build.80/monocle-0.7.17-build-80-unsigned.ipa",
+          "size": 2520124,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.16",
           "buildVersion": "79",
           "date": "2026-09-14",
