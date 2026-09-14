@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.16",
+          "buildVersion": "79",
+          "date": "2026-09-14",
+          "localizedDescription": "### Silky Smooth 3D Card Physics & Performance Optimization\n- **Isolated Card Presentation View (`CardPresentationView`)**:\n  - Encapsulated the 3D tilt gesture and visual transform state into a dedicated `CardPresentationView` component.\n  - Eliminated full-screen `BookHomeView` invalidation and re-rendering on every drag frame, keeping the transaction list, scroll views, and progressive blur background completely static during card tilt.\n- **Removed Discontinuous Ratio Threshold & Unlocked 360° Tilt**:\n  - Removed the `abs(width) > 1.3 * abs(height)` binary filter that was causing severe frame freezing and sudden jumping when dragging diagonally or vertically.\n  - Enabled continuous, natural 360° tilt in any direction across the card surface.\n- **Asymptotic Soft-Clamping with Hyperbolic Tangent (`tanh`)**:\n  - Replaced hard linear bounds clamping (`min(max(..., -12), 12)`) with a continuous $C^\\infty$ hyperbolic tangent resistance curve (`12.0 * tanh(offset / 140.0)`).\n  - Eliminates harsh boundary stops, giving the card an authentic elastic resistance feel.\n- **Interactive Spring Tracking & Settle**:\n  - Added `.animation(.interactiveSpring(response: 0.22, dampingFraction: 0.85, blendDuration: 0.08), value: dragTilt)` to filter capacitive touch sensor noise during dragging.\n  - Added `.spring(response: 0.38, dampingFraction: 0.74)` on gesture release to settle the card back to zero with natural physical bounce.\n- **Continuous Dismissal Damping**:\n  - Replaced the abrupt `dismissAmount == 0` boolean cutoff with a continuous dampening factor (`max(0, 1.0 - dismissAmount / 70.0)`), allowing the card to smoothly level out as it is pulled down toward dismiss.\n- **Unified 3D Rodrigues Rotation & Synced Specular Reflection**:\n  - Combined two separate Euler rotation passes into a single vector rotation around the exact perpendicular axis, cutting CALayer 3D compositing overhead in half.\n  - Synchronized the specular reflection sheen with the continuous tilt angle for accurate physical lighting.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.16-build.79/monocle-0.7.16-build-79-unsigned.ipa",
+          "size": 2518793,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.15",
           "buildVersion": "78",
           "date": "2026-09-14",
