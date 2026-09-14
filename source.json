@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.18",
+          "buildVersion": "81",
+          "date": "2026-09-15",
+          "localizedDescription": "### Unified Global Categories with Bidirectional Card Activation\n- **Unified Global Category Catalog**:\n  - Transitioned the app from fragmented per-card category sets to a unified global catalog (`GlobalCategory`) stored in workspace preferences and synced across all cards.\n  - Automatically consolidates existing card categories into the canonical catalog on startup without modifying user transaction history.\n  - Preserves 100% Core Data referential integrity: `AllocationRecord` relationships and past expenses remain untouched.\n- **Bidirectional Category & Card Activation**:\n  - **Category -> Cards**: When creating or editing any category, users can select which cards it is active on (e.g. \"All Cards\" or multi-select individual cards).\n  - **Card -> Categories**: In card management and inside `CardCustomizerView`, users can configure which categories are active for that specific card.\n  - **Immediate Metadata Synchronization**: Renaming a category or changing its icon updates it everywhere across all cards where it is active.\n  - **Safe Deactivation / Clutter Control**: Deactivating a category on a card cleanly hides it from new transaction entry pickers while safely preserving historical expenses and analytics attribution.\n- **Polished Dual-Mode Category Manager**:\n  - Redesigned `CategoryManager` with a segmented picker (`All Categories` and `By Card`).\n  - `All Categories`: displays the complete global catalog with active card counts/badges, swipe-to-delete with safety checks, and a \"+\" button with smart \"All Cards\" default preselection.\n  - `By Card`: provides a card switcher with instant toggle switches, \"Activate All\", and \"Reset to Defaults\" buttons.\n  - Interactive haptic feedback on all toggle operations.\n- **Card Customizer Integration**:\n  - Added an \"Active Categories\" configuration row inside `CardCustomizerView`, allowing users to customize category sets both when creating a new card and when modifying an existing one.\n- **Verification & Test Suite**:\n  - Added comprehensive automated unit tests covering catalog initialization, metadata propagation, bidirectional activation, custom category card creation, and selective assignment.\n  - All 103 unit tests in `MonocleTests` passed cleanly.\n  - Targeted UI test suite in `MonocleUITests` passed on iPhone 17 Pro simulator.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.18-build.81/monocle-0.7.18-build-81-unsigned.ipa",
+          "size": 2609223,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.17",
           "buildVersion": "80",
           "date": "2026-09-14",
