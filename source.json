@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.19",
+          "buildVersion": "82",
+          "date": "2026-09-15",
+          "localizedDescription": "### Reset Data & Factory Fresh Start for Daily Use\n- **Dedicated Reset Data Screen**:\n  - Added a new **Reset data** screen inside **Settings $\\rightarrow$ Data & Storage** tailored for users transitioning to daily logging.\n- **Two Flexible Reset Tiers**:\n  - **Clear Active Card Transactions**: Purges logged expenses on the active card (or across all cards) and resets card balances to Rp 0 while preserving customized cards, global categories, and recurring bills.\n  - **Erase All Content & Start Fresh**: Performs a complete factory wipe of Core Data entities and local files, creating a single clean card in real mode (with user-defined card name) and restoring canonical default global categories.\n- **Automatic Pre-Reset Safety Backup**:\n  - Automatically takes an atomic snapshot to `safetyURL` prior to performing any destructive reset operation.\n  - Users can export or restore their safety backup at any time from **Backup & Restore**.\n- **First-Party Apple iOS Design**:\n  - Informative safety guarantee banner with shield iconography.\n  - Destructive button roles with explicit confirmation alerts to prevent accidental data loss.\n- **Verification & Test Suite**:\n  - Added unit tests in `MultiBookTests` verifying active card clearing, multi-card clearing, and full factory reset with safety backup generation.\n  - All 106 unit tests in `MonocleTests` passed cleanly.\n  - Targeted UI test in `MonocleUITests` verified screen presentation, elements, alerts, and captured visual proof.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.19-build.82/monocle-0.7.19-build-82-unsigned.ipa",
+          "size": 2640434,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.18",
           "buildVersion": "81",
           "date": "2026-09-15",
