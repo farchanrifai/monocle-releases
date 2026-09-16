@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.20",
+          "buildVersion": "83",
+          "date": "2026-09-16",
+          "localizedDescription": "### Interactive Apple Shortcuts with Customizable Prompt Order\n- **Interactive Runtime Prompting**:\n  - Re-architected `AddExpenseIntent` so that when a shortcut is run without pre-filled parameters, Monocle prompts sequentially at runtime instead of requiring hardcoded inputs during shortcut setup.\n  - Interactive prompts for **Card / Account** (disambiguation between unhidden cards, or auto-selected if only one card exists), **Category** (dynamically filtered to the chosen card's active categories), **Short Note** (optional text input), and **Amount** in Indonesian Rupiah.\n  - Automatically skips prompting for any parameter already supplied or configured in the shortcut action or passed from earlier Shortcuts steps.\n- **Customizable Prompt & Input Order**:\n  - **Dedicated In-App Settings**: Added **Shortcut prompt order** in **Settings $\\rightarrow$ Shortcuts & Siri** (`ShortcutOrderSettingsView`).\n  - Users can reorder the 4 prompt fields (Card, Category, Note, Amount) with intuitive drag handles or up/down arrows.\n  - Includes quick presets:\n    - *Card First (Recommended)*: Card $\\rightarrow$ Category $\\rightarrow$ Short Note $\\rightarrow$ Amount\n    - *Amount First*: Amount $\\rightarrow$ Card $\\rightarrow$ Category $\\rightarrow$ Short Note\n    - *Amount & Category First*: Amount $\\rightarrow$ Category $\\rightarrow$ Card $\\rightarrow$ Short Note\n    - *Category First*: Category $\\rightarrow$ Card $\\rightarrow$ Short Note $\\rightarrow$ Amount\n  - **Per-Shortcut Order Override**: Added `inputOrder` (`ShortcutPromptOrder` `AppEnum`) parameter directly to `AddExpenseIntent`, allowing advanced users to configure different prompt sequences for individual shortcut actions in Apple Shortcuts.\n- **Dynamic Category Filtering**:\n  - When Card is chosen before Category, the category disambiguation picker dynamically limits options to only active categories configured on the selected card.\n- **Rich Receipt Snippet & Text Entry Enhancements**:\n  - `AddExpenseFromTextIntent` updated to prompt for card disambiguation if multiple cards exist.\n  - High-resolution receipt snippet view displays category icon, transaction note, card name, and formatted amount.\n- **Verification & Test Suite**:\n  - Added dedicated unit test suite `IntentTests` covering field properties, preset mappings, workspace serialization, model order customization, entity queries, and full intent execution (112 unit tests passing).\n  - Added targeted UI test `testShortcutOrderSettingsViewUIAndScreenshots` validating interactive screen controls and reordering on iPhone 17 Pro simulator.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.20-build.83/monocle-0.7.20-build-83-unsigned.ipa",
+          "size": 2724086,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.19",
           "buildVersion": "82",
           "date": "2026-09-15",
