@@ -687,6 +687,26 @@
           "minOSVersion": "26.0"
         }
       ]
+    },
+    {
+      "name": "Nook",
+      "bundleIdentifier": "com.farchan.nook.ios",
+      "developerName": "farchanrifai",
+      "subtitle": "Craft-inspired local notes & daily planning.",
+      "localizedDescription": "A lightweight, local-first notes and daily-planning app for iPhone inspired by Craft, powered by BlockNote and portable Markdown.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/nook-icon.png",
+      "tintColor": "#4D65D8",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-09-20",
+          "localizedDescription": "Initial Nook for iOS release with Craft-inspired Dual Floating Dock, 2-column All Docs visual grid, BlockNote touch canvas, and daily notes stream.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0-build.1/nook-1.0-build-1-unsigned.ipa",
+          "size": 3316477,
+          "minOSVersion": "18.0"
+        }
+      ]
     }
   ],
   "news": []
