@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.1",
+          "buildVersion": "4",
+          "date": "2026-09-19",
+          "localizedDescription": "Craft-inspired iOS UI refinement with native Liquid Glass, improved Home, Tasks, Calendar, All Docs, editor controls and Quick Capture, accessibility polish, and a full-resolution launch fix.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.1-build.4/nook-1.0.1-build-4-unsigned.ipa",
+          "size": 3692121,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.0",
           "buildVersion": "3",
           "date": "2026-09-19",
