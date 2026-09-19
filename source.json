@@ -700,7 +700,7 @@
         {
           "version": "1.0.0",
           "buildVersion": "2",
-          "date": "2026-09-20",
+          "date": "2026-09-19",
           "localizedDescription": "Authentic Craft Liquid Glass redesign: atmospheric background, tactile spring physics, 4-state pop checkboxes, dual dock with left island (Home, Tasks, Calendar) and standalone right Add bubble (no AI ring), wired all menus, and seeded Craft demo workspace.",
           "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.0-build.2/nook-1.0.0-build-2-unsigned.ipa",
           "size": 3640210,
@@ -709,7 +709,7 @@
         {
           "version": "1.0",
           "buildVersion": "1",
-          "date": "2026-09-20",
+          "date": "2026-09-19",
           "localizedDescription": "Initial Nook for iOS release with Craft-inspired Dual Floating Dock, 2-column All Docs visual grid, BlockNote touch canvas, and daily notes stream.",
           "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0-build.1/nook-1.0-build-1-unsigned.ipa",
           "size": 3316477,
