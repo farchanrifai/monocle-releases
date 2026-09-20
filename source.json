@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.14",
+          "buildVersion": "17",
+          "date": "2026-09-20",
+          "localizedDescription": "Fixes iOS note editing and scrolling: the section rail is now non-interactive and auto-hides after scrolling, the duplicate WebKit keyboard accessory is removed, the custom editing strip no longer reserves stale canvas space, and the document title sits closer to the native toolbar. The macOS rail remains persistently visible and hoverable.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.14-build.17/nook-1.0.14-build-17-unsigned.ipa",
+          "size": 7497448,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.13",
           "buildVersion": "16",
           "date": "2026-09-20",
