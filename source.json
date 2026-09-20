@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.10",
+          "buildVersion": "13",
+          "date": "2026-09-20",
+          "localizedDescription": "Adds inline task title editing on macOS and iOS. Tapping a task edits it in place, preserves status and portable metadata, updates the canonical source note, and keeps source-note navigation on the separate note label or group header.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.10-build.13/nook-1.0.10-build-13-unsigned.ipa",
+          "size": 3674954,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.9",
           "buildVersion": "12",
           "date": "2026-09-20",
