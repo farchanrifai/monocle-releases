@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.9",
+          "buildVersion": "12",
+          "date": "2026-09-20",
+          "localizedDescription": "Refines the full-screen editor canvas, right-side adaptive scroll rail, toolbar spacing, and note return navigation. The shared hybrid editor now also supports the macOS native-material canvas without changing the iOS presentation.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.9-build.12/nook-1.0.9-build-12-unsigned.ipa",
+          "size": 3655897,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.8",
           "buildVersion": "11",
           "date": "2026-09-20",
