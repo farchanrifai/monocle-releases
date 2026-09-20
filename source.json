@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.15",
+          "buildVersion": "18",
+          "date": "2026-09-20",
+          "localizedDescription": "Corrects the adaptive Nook icon by applying the saved white-circle dark appearance and tinted treatment from Icon Composer. Adds a classic macOS ICNS fallback for Dock, Finder, and Launch Services while retaining the modern Liquid Glass icon.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.15-build.18/nook-1.0.15-build-18-unsigned.ipa",
+          "size": 7667784,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.14",
           "buildVersion": "17",
           "date": "2026-09-20",
