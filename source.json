@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.3",
+          "buildVersion": "6",
+          "date": "2026-09-20",
+          "localizedDescription": "ChatGPT-style document scroll rail with section previews, tap navigation, and drag scrubbing across iOS and macOS.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.3-build.6/nook-1.0.3-build-6-unsigned.ipa",
+          "size": 3650694,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.2",
           "buildVersion": "5",
           "date": "2026-09-20",
