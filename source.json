@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.8",
+          "buildVersion": "11",
+          "date": "2026-09-20",
+          "localizedDescription": "Expanded the invisible scroll rail interaction area from 44 to 56 points on macOS and iOS without changing strip placement, spacing, or hover visuals.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.8-build.11/nook-1.0.8-build-11-unsigned.ipa",
+          "size": 3655868,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.7",
           "buildVersion": "10",
           "date": "2026-09-20",
