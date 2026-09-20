@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.4",
+          "buildVersion": "7",
+          "date": "2026-09-20",
+          "localizedDescription": "Refined the document scroll rail with compact even spacing on the right edge; made the iOS editor canvas full-bleed beneath native translucent toolbars; preserved folder context when closing notes opened or created inside a folder.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.4-build.7/nook-1.0.4-build-7-unsigned.ipa",
+          "size": 3655743,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.3",
           "buildVersion": "6",
           "date": "2026-09-20",
