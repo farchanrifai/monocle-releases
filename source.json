@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.12",
+          "buildVersion": "15",
+          "date": "2026-09-20",
+          "localizedDescription": "Fixes delayed note titles during navigation and adds a native keyboard editing toolbar with formatting, checklist, table, attachment, and insertion tools plus a top Done checkmark.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.12-build.15/nook-1.0.12-build-15-unsigned.ipa",
+          "size": 7473068,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.11",
           "buildVersion": "14",
           "date": "2026-09-20",
