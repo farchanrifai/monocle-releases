@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.2",
+          "buildVersion": "5",
+          "date": "2026-09-20",
+          "localizedDescription": "Native Liquid Glass navigation rewrite with a separated Quick Capture add bubble, smoother stack navigation, and a full-bleed editor canvas.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.2-build.5/nook-1.0.2-build-5-unsigned.ipa",
+          "size": 3612083,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.1",
           "buildVersion": "4",
           "date": "2026-09-19",
