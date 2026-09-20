@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.5",
+          "buildVersion": "8",
+          "date": "2026-09-20",
+          "localizedDescription": "Minimal viewport-aware scroll rail: highlights the full visible content range, stays compact at rest, and smoothly expands nearby strips with adaptive spacing and preview on hover, focus, or drag.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.5-build.8/nook-1.0.5-build-8-unsigned.ipa",
+          "size": 3655873,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.4",
           "buildVersion": "7",
           "date": "2026-09-20",
