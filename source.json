@@ -698,6 +698,15 @@
       "tintColor": "#4D65D8",
       "versions": [
         {
+          "version": "1.0.11",
+          "buildVersion": "14",
+          "date": "2026-09-20",
+          "localizedDescription": "Introduces Nook's new personal-logo app icon with the approved 3% optical alignment, native layered Liquid Glass rendering on current Apple platforms, and adaptive light, dark, clear, and tinted appearances.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.11-build.14/nook-1.0.11-build-14-unsigned.ipa",
+          "size": 7465964,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "1.0.10",
           "buildVersion": "13",
           "date": "2026-09-20",
