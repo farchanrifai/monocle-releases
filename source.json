@@ -860,6 +860,33 @@
           "minOSVersion": "18.0"
         }
       ]
+    },
+    {
+      "name": "Coffee Journal",
+      "bundleIdentifier": "com.farchanrifai.coffeejournal",
+      "developerName": "farchanrifai",
+      "subtitle": "Local-first coffee scrapbook · compatibility preview.",
+      "localizedDescription": "Collect quick coffee logs and photo stickers, search cafes, and export or restore your local journal. Compatibility preview: physical-device installation, persistence, permissions, and upgrades still require verification.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/coffee-icon.png",
+      "tintColor": "#996633",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-01",
+          "localizedDescription": "Initial compatibility preview with quick logging, photos and on-device cutouts, cafe search, and JSON backups. Device installation and runtime checks are pending.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.1.0-build.1/coffee-journal-0.1.0-build-1-unsigned.ipa",
+          "size": 166628,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Take a photo of your coffee to collect in your journal.",
+          "NSLocationWhenInUseUsageDescription": "Find cafes near you when you choose to search nearby."
+        }
+      }
     }
   ],
   "news": []
