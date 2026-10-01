@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Monocle & Nook App Source</title>
+  <meta name="description" content="Add Nook, Monocle, and Wallet to SideStore, LiveContainer, or AltStore with one click.">
+  <link rel="icon" type="image/png" href="nook-icon.png">
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --card-bg: rgba(255, 255, 255, 0.05);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-sidestore: #6366f1;
+      --accent-livecontainer: #0284c7;
+      --accent-altstore: #10b981;
+      --accent-primary: #3b82f6;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card-bg: rgba(255, 255, 255, 0.85);
+        --card-border: rgba(0, 0, 0, 0.08);
+        --text: #0f172a;
+        --text-muted: #64748b;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 32px 20px 60px;
+    }
+    .container {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    header {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .app-icon-stack {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: -8px;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      background: #1e1e24;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    p.subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s ease-in-out;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .btn:active {
+      transform: scale(0.98);
+      opacity: 0.9;
+    }
+    .btn-sidestore {
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+    }
+    .btn-livecontainer {
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+    }
+    .btn-altstore {
+      background: linear-gradient(135deg, #10b981, #059669);
+    }
+    .copy-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(125, 125, 125, 0.1);
+      border: 1px solid var(--card-border);
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 13px;
+    }
+    .copy-box input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+      font-family: monospace;
+    }
+    .copy-btn {
+      background: var(--text);
+      color: var(--bg);
+      border: none;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .apps-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .app-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .app-row:last-child {
+      border-bottom: none;
+    }
+    .app-row img {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+    }
+    .app-info {
+      flex: 1;
+    }
+    .app-title {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .app-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .app-dl {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent-primary);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: rgba(59, 130, 246, 0.12);
+    }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      background: #10b981;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      pointer-events: none;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="nook-icon.png" alt="Nook Icon" class="app-icon">
+      <h1>Monocle & Nook Source</h1>
+      <p class="subtitle">One-click repository installer for SideStore, LiveContainer, and AltStore.</p>
+    </header>
+
+    <div class="card">
+      <div class="button-group">
+        <a id="btn-sidestore" href="sidestore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffarchanrifai%2Fmonocle-releases%2Fmain%2Fsource.json" class="btn btn-sidestore">
+          <span>📲 Add to SideStore</span>
+        </a>
+        <a id="btn-livecontainer" href="livecontainer://sources?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffarchanrifai%2Fmonocle-releases%2Fmain%2Fsource.json" class="btn btn-livecontainer">
+          <span>📦 Add to LiveContainer</span>
+        </a>
+        <a id="btn-altstore" href="altstore://source?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffarchanrifai%2Fmonocle-releases%2Fmain%2Fsource.json" class="btn btn-altstore">
+          <span>⚡ Add to AltStore</span>
+        </a>
+      </div>
+
+      <div style="font-size: 13px; color: var(--text-muted); text-align: center;">Or copy the source URL manually:</div>
+
+      <div class="copy-box">
+        <input id="source-url" type="text" readonly value="https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/source.json">
+        <button class="copy-btn" onclick="copySource()">Copy</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size: 18px; font-weight: 700;">Included Apps</h2>
+      <div class="apps-list">
+        <div class="app-row">
+          <img src="nook-icon.png" alt="Nook">
+          <div class="app-info">
+            <div class="app-title">Nook</div>
+            <div class="app-desc">v1.0.15 (18) • Notes & Planning</div>
+          </div>
+          <a class="app-dl" href="https://github.com/farchanrifai/monocle-releases/releases/download/nook-v1.0.15-build.18/nook-1.0.15-build-18-unsigned.ipa">IPA</a>
+        </div>
+        <div class="app-row">
+          <img src="icon.png" alt="Monocle">
+          <div class="app-info">
+            <div class="app-title">Monocle</div>
+            <div class="app-desc">v0.7.20 (83) • Activity Tracker</div>
+          </div>
+          <a class="app-dl" href="https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.20-build.83/monocle-0.7.20-build-83-unsigned.ipa">IPA</a>
+        </div>
+        <div class="app-row">
+          <img src="wallet-icon.png" alt="Wallet">
+          <div class="app-info">
+            <div class="app-title">Wallet</div>
+            <div class="app-desc">v1.0.1 (6) • Card Management</div>
+          </div>
+          <a class="app-dl" href="https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0.1-build.6/wallet-1.0.1-build-6-unsigned.ipa">IPA</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast">Source URL copied to clipboard!</div>
+
+  <script>
+    const sourceURL = "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/source.json";
+    const encodedURL = encodeURIComponent(sourceURL);
+
+    // Auto-trigger on hash deep link
+    window.addEventListener("DOMContentLoaded", () => {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === "#sidestore") {
+        window.location.href = "sidestore://source?url=" + encodedURL;
+      } else if (hash === "#livecontainer") {
+        window.location.href = "livecontainer://sources?url=" + encodedURL;
+      } else if (hash === "#altstore") {
+        window.location.href = "altstore://source?url=" + encodedURL;
+      }
+    });
+
+    function copySource() {
+      const input = document.getElementById("source-url");
+      navigator.clipboard.writeText(input.value).then(() => {
+        showToast("Source URL copied!");
+      }).catch(() => {
+        input.select();
+        document.execCommand("copy");
+        showToast("Source URL copied!");
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      toast.innerText = msg;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2000);
+    }
+  </script>
+</body>
+</html>
