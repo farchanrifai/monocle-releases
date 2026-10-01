@@ -1,0 +1,46 @@
+name: Publish Coffee Journal preview
+on:
+  workflow_dispatch:
+    inputs:
+      artifact_commit:
+        description: Commit containing the verified IPA and checksum
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: coffee-preview-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.artifact_commit }}
+          persist-credentials: false
+      - name: Verify package
+        run: |
+          sha256sum --check coffee-journal-0.1.0-build-1-unsigned.ipa.sha256
+          python3 - <<'PY'
+          import plistlib, zipfile
+          with zipfile.ZipFile('coffee-journal-0.1.0-build-1-unsigned.ipa') as archive:
+              assert archive.testzip() is None
+              info = plistlib.loads(archive.read('Payload/CoffeeJournal.app/Info.plist'))
+              assert info['CFBundleIdentifier'] == 'com.farchanrifai.coffeejournal'
+              assert info['CFBundleShortVersionString'] == '0.1.0'
+              assert info['CFBundleVersion'] == '1'
+          PY
+      - name: Publish unsigned compatibility preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create coffee-v0.1.0-build.1 \
+            coffee-journal-0.1.0-build-1-unsigned.ipa \
+            coffee-journal-0.1.0-build-1-unsigned.ipa.sha256 \
+            --target main \
+            --title 'Coffee Journal 0.1.0 (1) — Compatibility Preview' \
+            --notes-file release-notes.md --prerelease --latest=false
+
