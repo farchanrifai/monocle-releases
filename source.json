@@ -863,6 +863,34 @@
     },
     {
       "name": "Coffee Journal",
+      "bundleIdentifier": "com.farchan.CoffeeJournal",
+      "developerName": "farchanrifai",
+      "subtitle": "Coffee memories, cup stickers, and café stamps.",
+      "localizedDescription": "A private coffee memory book with illustrated cups, Café Passport, Cup collection and Daily stories, quick usual orders, optional photos, and scrapbook sharing. Your journal stays on your device. Unsigned preview; physical-device verification is pending.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/coffee-journal-icon.png",
+      "tintColor": "#536249",
+      "category": "lifestyle",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "date": "2026-10-02",
+          "localizedDescription": "# Coffee Journal 0.1.2 (build 3)\n\nReleased 2 October 2026. Full journal preview for iOS 17 and later.\n\n## Added and improved\n\n- Warm dotted-paper design, five original cup illustrations, Cup collection and Daily stories layouts, month navigation, search, and favorites.\n- Café Passport with visit stamps, branch history, a Home stamp, and a Want to try list.\n- Saved usual orders, quick logging with Undo, entry editing and deletion, and monthly coffee and spending reflections.\n- One drink field with popular choices and matching cup artwork. Change the cup from the sticker's dropdown; Save remains visible while details scroll.\n- Enter café names directly in Log, or choose a saved-place suggestion. Branch details are optional, and new cafés save together with the coffee.\n- Add photos before saving, with preview, removal, and an optional photo sticker. Cancelled drafts clean up pending files; saved-photo cleanup respects shared attachments.\n- Native Liquid Glass for floating navigation, Log/Save, photo actions, and compact controls, with solid accessibility and older-iOS fallbacks.\n- Fixed duplicate Log controls, sticky journal controls, tab touch areas, and returning to the title when switching tabs.\n- Monthly scrapbook PNG sharing, versioned journal/photo backups, validated restore, and CSV export. Journal data stays on the device.\n\n## Validation\n\n44 tests passed across simulator verification runs. Light and dark screens and scrapbook output were reviewed. The unsigned arm64 device Release build succeeded; IPA integrity and version metadata were verified.\n\n## Installation and prototype data\n\nThis IPA is unsigned and requires your existing SideStore/LiveContainer installation setup. Camera, photo cutout quality, Files/share sheets, and installation/update behavior still need physical-device verification.\n\nInstall the new **Coffee Journal** entry with identifier `com.farchan.CoffeeJournal`. The old prototype remains separately available as **Coffee Journal Prototype** with identifier `com.farchanrifai.coffeejournal`.\n\nThe two apps use different data and backup formats. This build does not import the prototype's journal or backups. Keep the prototype and an exported copy of its data if you have memories stored there.\n",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.1.2-build.3/coffee-journal-0.1.2-build-3-unsigned.ipa",
+          "size": 1541670,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Take a photo to remember your coffee. Photos stay in your journal on this device.",
+          "NSPhotoLibraryUsageDescription": "Choose a photo to remember your coffee."
+        }
+      }
+    },
+    {
+      "name": "Coffee Journal Prototype",
       "bundleIdentifier": "com.farchanrifai.coffeejournal",
       "developerName": "farchanrifai",
       "subtitle": "Local-first coffee scrapbook · compatibility preview.",

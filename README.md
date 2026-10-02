@@ -1,6 +1,6 @@
 # Monocle & Nook App Source
 
-Official community repository for unsigned iOS apps and OTA updates, including **Nook**, **Monocle**, and **Wallet**.
+Official community repository for unsigned iOS apps and OTA updates, including **Nook**, **Monocle**, **Wallet**, and **Coffee Journal**.
 
 <p align="center">
   <a href="https://farchanrifai.github.io/monocle-releases/#sidestore">
@@ -59,6 +59,23 @@ Wallet and card management prototype.
 - **Identifier**: `com.farchan.walletprototype`
 - **Latest Version**: `1.0.1` (Build `6`)
 - **Direct IPA**: [Download wallet-1.0.1-build-6-unsigned.ipa](https://github.com/farchanrifai/monocle-releases/releases/download/wallet-v1.0.1-build.6/wallet-1.0.1-build-6-unsigned.ipa)
+
+### 4. Coffee Journal
+
+A private coffee memory book with cup stickers, café stamps, optional photos, and scrapbook sharing.
+
+- **Identifier**: `com.farchan.CoffeeJournal`
+- **Latest Version**: `0.1.2` (Build `3`) · unsigned preview
+- **Direct IPA**: [Download coffee-journal-0.1.2-build-3-unsigned.ipa](https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.1.2-build.3/coffee-journal-0.1.2-build-3-unsigned.ipa)
+- **Changelog**: [Release notes](https://github.com/farchanrifai/monocle-releases/releases/tag/coffee-v0.1.2-build.3) · [Versioned changelog](changelogs/coffee-journal/coffee-v0.1.2-build.3.md)
+
+### 5. Coffee Journal Prototype
+
+The earlier compatibility prototype remains separately available. Its journal and backup format do not transfer to the current app.
+
+- **Identifier**: `com.farchanrifai.coffeejournal`
+- **Version**: `0.1.0` (Build `1`)
+- **Direct IPA**: [Download the original prototype](https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.1.0-build.1/coffee-journal-0.1.0-build-1-unsigned.ipa)
 
 ---
 
