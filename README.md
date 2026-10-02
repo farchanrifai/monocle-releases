@@ -65,9 +65,9 @@ Wallet and card management prototype.
 A private coffee memory book with cup stickers, café stamps, optional photos, and scrapbook sharing.
 
 - **Identifier**: `com.farchan.CoffeeJournal`
-- **Latest Version**: `0.4.0` (Build `7`) · unsigned preview
-- **Direct IPA**: [Download coffee-journal-0.4.0-build-7-unsigned.ipa](https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.4.0-build.7/coffee-journal-0.4.0-build-7-unsigned.ipa)
-- **Changelog**: [Release notes](https://github.com/farchanrifai/monocle-releases/releases/tag/coffee-v0.4.0-build.7) · [Versioned changelog](changelogs/coffee-journal/coffee-v0.4.0-build.7.md)
+- **Latest Version**: `0.5.0` (Build `8`) · unsigned preview
+- **Direct IPA**: [Download coffee-journal-0.5.0-build-8-unsigned.ipa](https://github.com/farchanrifai/monocle-releases/releases/download/coffee-v0.5.0-build.8/coffee-journal-0.5.0-build-8-unsigned.ipa)
+- **Changelog**: [Release notes](https://github.com/farchanrifai/monocle-releases/releases/tag/coffee-v0.5.0-build.8) · [Versioned changelog](changelogs/coffee-journal/coffee-v0.5.0-build.8.md)
 
 ### 5. Coffee Journal Prototype
 
