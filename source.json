@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.21",
+          "buildVersion": "84",
+          "date": "2026-10-05",
+          "localizedDescription": "Backend reliability update\n\n- Safer full-workspace backups, restore/reset recovery and validated artwork.\n- Preserve historical budgets, linked bill deletion/undo and each card's draft.\n- Prospective bill edits, all-card reconciliation and reminder permission/error handling.\n- Exact CSV fractions/splits, strict import validation and consistent card reporting/civil dates.\n- Apply restored app lock/visibility, refresh widgets from shared commits and protect Live Activity replacement.\n- Faster batch persistence, with 181 passing unit tests and 18 passing final targeted UI checks.\n\nUnsigned arm64 IPA for SideStore re-signing, minimum iOS 26. Physical-device integration/performance checks and background-persistence work remain outstanding.\n\nSource implementation: 6ea3d04.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.21-build.84/monocle-0.7.21-build-84-unsigned.ipa",
+          "size": 2939800,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.20",
           "buildVersion": "83",
           "date": "2026-09-16",
