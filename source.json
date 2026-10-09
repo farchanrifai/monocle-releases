@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.26",
+          "buildVersion": "91",
+          "date": "2026-10-09",
+          "localizedDescription": "Chat history is now kept between app launches, on this iPhone only. It is cleared by Clear chat, Reset data, clearing all transactions, or restoring a backup. Chat stays hidden behind app lock.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.26-build.91/monocle-0.7.26-build-91-unsigned.ipa",
+          "size": 3229247,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.25",
           "buildVersion": "90",
           "date": "2026-10-09",
