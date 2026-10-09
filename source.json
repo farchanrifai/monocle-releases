@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.7.22",
+          "buildVersion": "87",
+          "date": "2026-10-09",
+          "localizedDescription": "Preview build: chat screen with progressive blur, title scope menu (stack, card or all cards), tap to dismiss keyboard, suggestions and copy. Filter moved to the top of Home; chat button in the bottom bar. AI not connected yet; nothing is saved from chat.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.22-build.87/monocle-0.7.22-build-87-unsigned.ipa",
+          "size": 3057603,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.21",
           "buildVersion": "86",
           "date": "2026-10-09",
