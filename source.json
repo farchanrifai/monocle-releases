@@ -14,6 +14,15 @@
       "versions": [
         {
           "version": "0.7.21",
+          "buildVersion": "85",
+          "date": "2026-10-09",
+          "localizedDescription": "Preview build: new full-screen chat screen (sample content only, AI not connected yet, nothing is saved from chat). Stack filter moved to the top of Home; chat button added to the bottom bar.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.21-build.85/monocle-0.7.21-build-85-unsigned.ipa",
+          "size": 3027677,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.7.21",
           "buildVersion": "84",
           "date": "2026-10-05",
           "localizedDescription": "Backend reliability update\n\n- Safer full-workspace backups, restore/reset recovery and validated artwork.\n- Preserve historical budgets, linked bill deletion/undo and each card's draft.\n- Prospective bill edits, all-card reconciliation and reminder permission/error handling.\n- Exact CSV fractions/splits, strict import validation and consistent card reporting/civil dates.\n- Apply restored app lock/visibility, refresh widgets from shared commits and protect Live Activity replacement.\n- Faster batch persistence, with 181 passing unit tests and 18 passing final targeted UI checks.\n\nUnsigned arm64 IPA for SideStore re-signing, minimum iOS 26. Physical-device integration/performance checks and background-persistence work remain outstanding.\n\nSource implementation: 6ea3d04.",
