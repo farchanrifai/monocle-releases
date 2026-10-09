@@ -14,6 +14,15 @@
       "versions": [
         {
           "version": "0.7.21",
+          "buildVersion": "86",
+          "date": "2026-10-09",
+          "localizedDescription": "Preview build: chat screen polish. Progressive blur on the chat top bar and input bar; tap the title to pick a stack, card or all cards; tap the conversation to dismiss the keyboard; empty state with suggestions; long-press to copy. AI still not connected; nothing is saved from chat.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.7.21-build.86/monocle-0.7.21-build-86-unsigned.ipa",
+          "size": 3057304,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "0.7.21",
           "buildVersion": "85",
           "date": "2026-10-09",
           "localizedDescription": "Preview build: new full-screen chat screen (sample content only, AI not connected yet, nothing is saved from chat). Stack filter moved to the top of Home; chat button added to the bottom bar.",
