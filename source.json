@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.8.0",
+          "buildVersion": "95",
+          "date": "2026-10-11",
+          "localizedDescription": "Monocle 0.8.0 — cards are purposes. BACK UP FIRST (Settings → Backup & restore): this version upgrades your data and older versions can't open it. New: one stack per card with optional cap, Total-until budgets for trips and goals, Paid with labels, customizable Add Expense form, multi-currency with fetched rates. Branch feat/model-b (preview, not merged).",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.8.0-build.95/monocle-0.8.0-build-95-unsigned.ipa",
+          "size": 3797366,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.7.29",
           "buildVersion": "94",
           "date": "2026-10-10",
