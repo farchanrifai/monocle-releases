@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.8.2",
+          "buildVersion": "97",
+          "date": "2026-10-11",
+          "localizedDescription": "Navigation: Budgets, Bills, Analytics and Expense Details now open as full screens with swipe-back from the edge. The stack/card switcher moved into the pill next to Recent Expenses.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.8.2-build.97/monocle-0.8.2-build-97-unsigned.ipa",
+          "size": 3862752,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.8.1",
           "buildVersion": "96",
           "date": "2026-10-11",
