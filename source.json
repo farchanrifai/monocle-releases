@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.8.5",
+          "buildVersion": "100",
+          "date": "2026-10-12",
+          "localizedDescription": "### AI Chat: mentions and context\n- Sending a message morphs the composer field into the bubble, which then settles into the transcript (iOS and Mac, plain fade with Reduce Motion). The composer is transparent over a progressive blur and the transcript scrolls under it.\n- `#` mentions a category next to `@` for a card or stack; both can be used in one message. Picker follows the chat scope; Return or Tab (Mac) confirms. Mentions show as rounded chips in the composer and in sent bubbles.\n- A follow-up question that names no period (\"what categories?\") keeps the period of the last answer (the app tells the assistant which period that was).\n- Chart titles show the real dates (\"1–Oct 31, 2026 · Daily\") instead of a period keyword.\n- A chat saved under other instructions or tools starts empty; a \"thinking block\" error from the API restarts the conversation once instead of failing every message.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.8.5-build.100/monocle-0.8.5-build-100-unsigned.ipa",
+          "size": 3897034,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.8.4",
           "buildVersion": "99",
           "date": "2026-10-12",
