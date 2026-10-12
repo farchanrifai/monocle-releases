@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.8.4",
+          "buildVersion": "99",
+          "date": "2026-10-12",
+          "localizedDescription": "0.8.4: text entry removed, expense form shows reporting equivalent, thousands separators, one-line date",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.8.4-build.99/monocle-0.8.4-build-99-unsigned.ipa",
+          "size": 3832815,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.8.3",
           "buildVersion": "98",
           "date": "2026-10-11",
