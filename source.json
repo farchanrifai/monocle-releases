@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.9.0",
+          "buildVersion": "104",
+          "date": "2026-10-13",
+          "localizedDescription": "### Shortcuts that answer, and a smoother chat\n- New Shortcuts and Siri actions that only read: **How Much Did I Spend** (this month, last month, last 30 days, cycle, year to date; optionally one stack or card), **Budget Left**, and **Ask Monocle** (your question goes to AI chat; anything it proposes waits in the app for you to confirm). Stacks can now be picked in Shortcuts.\n- \"Add an expense in Monocle\" now means Add Expense only; Quick entry has its own phrase (\"Quick entry in Monocle\").\n- Chat: the reply grows out of the thinking bubble; the sent bubble starts growing at once instead of sitting small. The iMessage-style send animation and its switch are gone.\n- Chat: a hand-typed `@name` sets the scope when you send, so the header matches the answer.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.9.0-build.104/monocle-0.9.0-build-104-unsigned.ipa",
+          "size": 3917300,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.8.8",
           "buildVersion": "103",
           "date": "2026-10-13",
