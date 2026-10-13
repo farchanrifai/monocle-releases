@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.9.1",
+          "buildVersion": "105",
+          "date": "2026-10-13",
+          "localizedDescription": "### Chat replies stream in\n- The reply appears word by word as Claude writes it: the thinking bubble opens up at the first words and keeps growing, instead of waiting for the whole answer. Tool steps (budget, summaries, expense proposals) still run before their cards appear. If the connection drops after text has shown, the error appears and the turn is rolled back as before.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.9.1-build.105/monocle-0.9.1-build-105-unsigned.ipa",
+          "size": 3938649,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.9.0",
           "buildVersion": "104",
           "date": "2026-10-13",
