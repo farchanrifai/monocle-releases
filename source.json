@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.9.5",
+          "buildVersion": "109",
+          "date": "2026-10-13",
+          "localizedDescription": "- Chat composer: after Send the field is recreated, so the old message can no longer come back when you start typing the next one (the old text was still inside the field, hidden by the display; seen in your screen recording).\n- Chat: sending while scrolled up brings the conversation back to the bottom, where your message and the reply appear.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.9.5-build.109/monocle-0.9.5-build-109-unsigned.ipa",
+          "size": 3963164,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.9.4",
           "buildVersion": "108",
           "date": "2026-10-13",
