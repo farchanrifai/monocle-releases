@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.9.4",
+          "buildVersion": "108",
+          "date": "2026-10-13",
+          "localizedDescription": "- Budgets across cards: a card in another currency now shows its spending at the rate of each expense's own day; only its limit converts at today's rate (still marked ≈).\n- Budget editor: a \"Total until\" goal now says it replaces this cycle's monthly budget, and what comes back when the goal ends.\n- Chat composer: clearing the message after Send no longer happens inside the send animation (an attempt at the \"old text comes back when I type\" bug; not reproduced in the simulator, so unconfirmed).",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.9.4-build.108/monocle-0.9.4-build-108-unsigned.ipa",
+          "size": 3952413,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.9.3",
           "buildVersion": "107",
           "date": "2026-10-13",
