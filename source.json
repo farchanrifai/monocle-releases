@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.1.1",
+          "buildVersion": "2",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.1.1 (2): Return now adds a new line (send with the arrow button), tap or drag down dismisses the keyboard, smoother streaming and animations (text paced, rows not re-rendered, native bottom pinning, press and insert animations, haptics).",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.1.1-build.2/luna-0.1.1-build-2-unsigned.ipa",
+          "size": 295149,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.0",
           "buildVersion": "1",
           "date": "2026-10-14",
