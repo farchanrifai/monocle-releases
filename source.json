@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.2.1",
+          "buildVersion": "6",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.2.1 (6): progressive blur under every header and the chat composer, New chat is its own bubble in the tab bar, Waiting for your tap and Recents collapse (remembered), no more content colliding with titles.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.2.1-build.6/luna-0.2.1-build-6-unsigned.ipa",
+          "size": 891534,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "5",
           "date": "2026-10-14",
