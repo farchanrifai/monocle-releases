@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.1.2 (3): smoother replies. The screen now glides with a long answer as it streams instead of jumping a line at a time, the scroll-to-latest arrow no longer shifts the conversation, and the copy row no longer pushes the text when a reply finishes.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.1.2-build.3/luna-0.1.2-build-3-unsigned.ipa",
+          "size": 305641,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "2",
           "date": "2026-10-14",
