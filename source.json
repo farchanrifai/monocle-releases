@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.6",
+          "buildVersion": "16",
+          "date": "2026-10-15",
+          "localizedDescription": "Luna 0.4.6: fix Plan/Inbox 404 (query strings in request URLs)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.6-build.16/luna-0.4.6-build-16-unsigned.ipa",
+          "size": 1513859,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.5",
           "buildVersion": "15",
           "date": "2026-10-15",
