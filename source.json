@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.10",
+          "buildVersion": "20",
+          "date": "2026-10-15",
+          "localizedDescription": "Luna 0.4.10: chat UI cleanup, copy messages, consistent model picker",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.10-build.20/luna-0.4.10-build-20-unsigned.ipa",
+          "size": 1560905,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.9",
           "buildVersion": "19",
           "date": "2026-10-15",
