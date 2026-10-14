@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.3.0",
+          "buildVersion": "7",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.3.0 (7): New chat is a separate round button next to the tab bar (our own bar, so it can't merge). Four tabs: Today, Chats, Plan, Inbox. New screens from the design: Today, Plan, Inbox, Voice, Automations, Settings, Onboarding, Notifications. Money, Memory, Settings and Automations open from Today. Sample content is labelled and can be switched off in Settings.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.3.0-build.7/luna-0.3.0-build-7-unsigned.ipa",
+          "size": 1396374,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.2.1",
           "buildVersion": "6",
           "date": "2026-10-14",
