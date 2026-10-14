@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.1",
+          "buildVersion": "11",
+          "date": "2026-10-15",
+          "localizedDescription": "Plan and Inbox refresh when opened (shows newly connected Google accounts); composer clears after send even when the keyboard autocorrects.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.1-build.11/luna-0.4.1-build-11-unsigned.ipa",
+          "size": 1489190,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "10",
           "date": "2026-10-14",
