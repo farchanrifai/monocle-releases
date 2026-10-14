@@ -1248,6 +1248,27 @@
           "NSLocationWhenInUseUsageDescription": "Find cafes near you when you choose to search nearby."
         }
       }
+    },
+    {
+      "name": "Luna",
+      "bundleIdentifier": "com.farchan.luna",
+      "developerName": "farchanrifai",
+      "subtitle": "Personal AI assistant.",
+      "localizedDescription": "Luna: tasks, notes, memory and chat, backed by your own server.",
+      "iconURL": "https://raw.githubusercontent.com/farchanrifai/monocle-releases/main/luna-icon.png",
+      "tintColor": "#C15B36",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.1.0 (1): first Swift build. Chat with streaming replies, tool chips, confirm cards and a model picker, against your Luna server. Paste your device token on first launch.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.1.0-build.1/luna-0.1.0-build-1-unsigned.ipa",
+          "size": 271316,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "permissions": []
     }
   ],
   "news": []
