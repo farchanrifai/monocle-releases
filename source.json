@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "8",
+          "date": "2026-10-14",
+          "localizedDescription": "Native tab bar and navigation bars (system TabView + NavigationStack); New chat stays a separate round button.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.3.1-build.8/luna-0.3.1-build-8-unsigned.ipa",
+          "size": 1380999,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "7",
           "date": "2026-10-14",
