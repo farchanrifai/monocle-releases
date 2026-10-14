@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.11",
+          "buildVersion": "21",
+          "date": "2026-10-15",
+          "localizedDescription": "Luna 0.4.11: cleaner confirm cards, friendly tool chips, partial text copy, copy button",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.11-build.21/luna-0.4.11-build-21-unsigned.ipa",
+          "size": 1581448,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.10",
           "buildVersion": "20",
           "date": "2026-10-15",
