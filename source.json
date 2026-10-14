@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.1.3",
+          "buildVersion": "4",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.1.3 (4): smaller type to match Claude (16 pt replies with airier line spacing, 16 pt bubbles and composer), and a defensive fix for the composer keeping the text after sending.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.1.3-build.4/luna-0.1.3-build-4-unsigned.ipa",
+          "size": 307159,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.2",
           "buildVersion": "3",
           "date": "2026-10-14",
