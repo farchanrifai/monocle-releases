@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.3.2",
+          "buildVersion": "9",
+          "date": "2026-10-14",
+          "localizedDescription": "New chat moved to the Chats toolbar; Ask Luna bar on Today opens a chat with the summary as context; equal-height tiles.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.3.2-build.9/luna-0.3.2-build-9-unsigned.ipa",
+          "size": 1385383,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.3.1",
           "buildVersion": "8",
           "date": "2026-10-14",
