@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.3",
+          "buildVersion": "13",
+          "date": "2026-10-15",
+          "localizedDescription": "Confirm card shows readable dates and reading-order fields; confirm cards stay in the chat when you reopen it.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.3-build.13/luna-0.4.3-build-13-unsigned.ipa",
+          "size": 1501413,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.2",
           "buildVersion": "12",
           "date": "2026-10-15",
