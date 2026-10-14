@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.8",
+          "buildVersion": "18",
+          "date": "2026-10-15",
+          "localizedDescription": "Luna 0.4.8: Today shows real Notion tasks",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.8-build.18/luna-0.4.8-build-18-unsigned.ipa",
+          "size": 1568189,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.7",
           "buildVersion": "17",
           "date": "2026-10-15",
