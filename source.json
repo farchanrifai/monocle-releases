@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.2",
+          "buildVersion": "12",
+          "date": "2026-10-15",
+          "localizedDescription": "Composer clears after send even with autocorrect (ends the keyboard composition first); chat can create calendar events once the server is updated.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.2-build.12/luna-0.4.2-build-12-unsigned.ipa",
+          "size": 1492164,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.1",
           "buildVersion": "11",
           "date": "2026-10-15",
