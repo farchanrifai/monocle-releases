@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.12",
+          "buildVersion": "22",
+          "date": "2026-10-15",
+          "localizedDescription": "Luna 0.4.12: progress status, stop button, select text across paragraphs",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.12-build.22/luna-0.4.12-build-22-unsigned.ipa",
+          "size": 1583210,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.11",
           "buildVersion": "21",
           "date": "2026-10-15",
