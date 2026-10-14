@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.2.0",
+          "buildVersion": "5",
+          "date": "2026-10-14",
+          "localizedDescription": "Luna 0.2.0 (5): Chats list with history and a confirm inbox, Memory screen with review queue, Money screen with pace chart and bills, Ask Luna for Siri/Shortcuts/Action Button, and an Add to Luna share extension. Scrolling no longer dismisses the keyboard; tap does.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.2.0-build.5/luna-0.2.0-build-5-unsigned.ipa",
+          "size": 875773,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.1.3",
           "buildVersion": "4",
           "date": "2026-10-14",
