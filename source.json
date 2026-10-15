@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.16",
+          "buildVersion": "26",
+          "date": "2026-10-15",
+          "localizedDescription": "Fix: pull-to-refresh no longer fails with 'cancelled'; triage errors shown instead of silently falling back",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.16-build.26/luna-0.4.16-build-26-unsigned.ipa",
+          "size": 1648065,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.15",
           "buildVersion": "25",
           "date": "2026-10-15",
