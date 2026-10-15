@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.15",
+          "buildVersion": "25",
+          "date": "2026-10-15",
+          "localizedDescription": "Mail triage: Inbox groups Urgent / Needs reply / FYI / Junk; Today shows mail that needs you",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.15-build.25/luna-0.4.15-build-25-unsigned.ipa",
+          "size": 1641093,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.14",
           "buildVersion": "24",
           "date": "2026-10-15",
