@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.17",
+          "buildVersion": "27",
+          "date": "2026-10-15",
+          "localizedDescription": "Email replies: Draft reply on urgent/needs-reply mail opens a chat that ends in a Send card (exact recipient, subject, body)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.17-build.27/luna-0.4.17-build-27-unsigned.ipa",
+          "size": 1651036,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.16",
           "buildVersion": "26",
           "date": "2026-10-15",
