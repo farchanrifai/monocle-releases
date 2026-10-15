@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.21",
+          "buildVersion": "31",
+          "date": "2026-10-15",
+          "localizedDescription": "Read emails in Luna: tap any mail in Inbox or Today for the full text, with Draft reply (needs server deploy)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.21-build.31/luna-0.4.21-build-31-unsigned.ipa",
+          "size": 1713960,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.20",
           "buildVersion": "30",
           "date": "2026-10-15",
