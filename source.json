@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.20",
+          "buildVersion": "30",
+          "date": "2026-10-15",
+          "localizedDescription": "Plan/Inbox/Today open instantly with the last data, spinner instead of 'not connected' while loading; full email text on the card; Luna writes a real reply",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.20-build.30/luna-0.4.20-build-30-unsigned.ipa",
+          "size": 1679793,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.19",
           "buildVersion": "29",
           "date": "2026-10-15",
