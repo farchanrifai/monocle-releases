@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.18",
+          "buildVersion": "28",
+          "date": "2026-10-15",
+          "localizedDescription": "Email: one card with Cancel / Save draft / Send; replies stay in the original thread (needs server deploy)",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.18-build.28/luna-0.4.18-build-28-unsigned.ipa",
+          "size": 1655394,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.17",
           "buildVersion": "27",
           "date": "2026-10-15",
