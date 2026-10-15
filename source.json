@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.14",
+          "buildVersion": "24",
+          "date": "2026-10-15",
+          "localizedDescription": "Type scale: one 10-step size hierarchy across the app; your chat bubble one step under Luna's reply; bigger, clearer confirm cards",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.14-build.24/luna-0.4.14-build-24-unsigned.ipa",
+          "size": 1601063,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.13",
           "buildVersion": "23",
           "date": "2026-10-15",
