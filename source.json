@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.19",
+          "buildVersion": "29",
+          "date": "2026-10-15",
+          "localizedDescription": "Email card: full-width message, Sent / Saved to Drafts states, envelope header; Draft reply bubble reads like you wrote it",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.19-build.29/luna-0.4.19-build-29-unsigned.ipa",
+          "size": 1664117,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.18",
           "buildVersion": "28",
           "date": "2026-10-15",
