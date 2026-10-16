@@ -1259,6 +1259,15 @@
       "tintColor": "#C15B36",
       "versions": [
         {
+          "version": "0.4.22",
+          "buildVersion": "32",
+          "date": "2026-10-17",
+          "localizedDescription": "Text follows the iPhone text-size setting (whole app, not just Luna's replies); capped on pills, tiles and the time grid",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/luna-v0.4.22-build.32/luna-0.4.22-build-32-unsigned.ipa",
+          "size": 1737990,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.4.21",
           "buildVersion": "31",
           "date": "2026-10-15",
