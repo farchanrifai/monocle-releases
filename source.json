@@ -13,6 +13,15 @@
       "tintColor": "#FF3B30",
       "versions": [
         {
+          "version": "0.9.8",
+          "buildVersion": "112",
+          "date": "2026-10-18",
+          "localizedDescription": "- New Shortcut and Siri action **Remove Last Expense**: removes the expense you added most recently, after you confirm; Undo it in the app.\n- Luna registration: \"Needs internet\" only shows when the phone is offline; other failures say the server couldn't be reached and why. The device now registers under its model and iOS version instead of \"Monocle iPhone\".\n- The demo card is now called \"Sample card\".\n- The app now ships a privacy manifest (`PrivacyInfo.xcprivacy`): no tracking, no data collected by the developer, settings stored with UserDefaults.",
+          "downloadURL": "https://github.com/farchanrifai/monocle-releases/releases/download/v0.9.8-build.112/monocle-0.9.8-build-112-unsigned.ipa",
+          "size": 4048646,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "0.9.7",
           "buildVersion": "111",
           "date": "2026-10-14",
